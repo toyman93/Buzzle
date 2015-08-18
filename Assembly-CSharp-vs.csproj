@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E384A863-E3C1-9608-B36B-E920A7EDF286}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_2;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Screens\MainMenu\StoryMode\GamePlayScreen\DisplayMovesLeft.cs" />
+     <Compile Include="Assets\Screens\MainMenu\StoryMode\MonalisaLevel\StageSelect_MonaLisa.cs" />
+     <Compile Include="Assets\Screens\MainMenu\StoryMode\StoryNaration\StoryNaration.cs" />
+     <Compile Include="Assets\Scripts\Age.cs" />
+     <Compile Include="Assets\Scripts\BackToMenuButton.cs" />
+     <Compile Include="Assets\Scripts\BlitzColour.cs" />
+     <Compile Include="Assets\Scripts\BlitzItemChoose.cs" />
+     <Compile Include="Assets\Scripts\BlitzPopulator.cs" />
+     <Compile Include="Assets\Scripts\Colour.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\GUITextSpawner.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\ScreenFader.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\ScrenFader.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\Scripts\GameProgress.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\Scripts\Painting.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\Scripts\PaintingEra.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\Scripts\Stage.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\backToMenu.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\leftArrow.cs" />
+     <Compile Include="Assets\Scripts\CommonToAll\rightArrow.cs" />
+     <Compile Include="Assets\Scripts\Drag.cs" />
+     <Compile Include="Assets\Scripts\Game.cs" />
+     <Compile Include="Assets\Scripts\Generator.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\BlitzMode.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\HelpBtn.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\ItemShop.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\MainScreen.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\MenuScroll.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\ScoreHub.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\SoundBtn.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\Paintings\PaintingScroll.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\Paintings\p_Athens.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\Paintings\p_Creation.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\Paintings\p_Monalisa.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\PeriodScroll.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\ToModernism.cs" />
+     <Compile Include="Assets\Scripts\MainScreen\StoryMode\ToRenaissance.cs" />
+     <Compile Include="Assets\Scripts\Palette.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
+     <Compile Include="Assets\Scripts\ScoreScripts\HighScoreList.cs" />
+     <Compile Include="Assets\Scripts\ScoreScripts\HighScorePopulator.cs" />
+     <Compile Include="Assets\Scripts\ScoreScripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\AssetsLoader.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\BiDictionary.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\BuyableItem.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\ItemUIControl.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\MouseListener.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\Purchase.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\PurchaseBroker.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\PurchaseButton.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\PurchaseEventHandler.cs" />
+     <Compile Include="Assets\Scripts\ShopSripts\UsableItem.cs" />
+     <Compile Include="Assets\Scripts\SkipPuzzle.cs" />
+     <Compile Include="Assets\Scripts\Text\TimeRemaining.cs" />
+     <Compile Include="Assets\Scripts\ToMainScreen.cs" />
+     <Compile Include="Assets\Scripts\ToPeriod.cs" />
+     <Compile Include="Assets\Scripts\displayScoreInBlitzMode.cs" />
+     <Compile Include="Assets\Scripts\hOscillate.cs" />
+     <Compile Include="Assets\Scripts\loadNextLevel.cs" />
+     <Compile Include="Assets\Scripts\playerController.cs" />
+     <Compile Include="Assets\Scripts\resetButton.cs" />
+     <Compile Include="Assets\Scripts\vOscillate.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

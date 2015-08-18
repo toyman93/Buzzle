@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Generator.cs">
+    <Files>
+      <File FileName="Assets/Screens/MainMenu/StoryMode/MonalisaLevel/StageSelect_MonaLisa.cs" Line="146" Column="1" />
+      <File FileName="Assets/Scripts/Game.cs" Line="104" Column="1" />
+      <File FileName="Assets/Scripts/ShopSripts/AssetsLoader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CommonToAll/Scripts/Painting.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ShopSripts/UsableItem.cs" Line="7" Column="24" />
+      <File FileName="Assets/Scripts/ShopSripts/BuyableItem.cs" Line="26" Column="3" />
+      <File FileName="Assets/Scripts/CommonToAll/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CommonToAll/ScreenFader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Generator.cs" Line="49" Column="52" />
+      <File FileName="Assets/Scripts/hOscillate.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BlitzPopulator.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/Text/TimeRemaining.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/BlitzItemChoose.cs" Line="21" Column="61" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
